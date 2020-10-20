@@ -28,10 +28,10 @@
       - sli: rt_svc_p50
         pass:
           - criteria:
-              - "<=+10%"
+              - "<=+8%"
         warning:
           - criteria:
-              - "<=+10%"
+              - "<=+8%"
        - sli: rt_svc_p90
         pass:
           - criteria:
